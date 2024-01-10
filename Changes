@@ -1,0 +1,134 @@
+0.093   2024-01-08  Released-By: PERLANCAR; Urgency: medium
+
+        - [sortsub pod_section_ala_perlancar] Add SAH SCHEMAS, SAH SCHEMA
+          DEFINITION.
+
+
+0.092   2021-10-17  Released-By: PERLANCAR; Urgency: medium
+
+	- [sub pod_section_ala_perlancar] Handle spelling variation
+	  COPYRIGHT *&* LICENSE.
+
+
+0.091   2021-08-22  Released-By: PERLANCAR; Urgency: medium
+
+	- [sub pod_section_ala_perlancar] Add DIAGNOSTICS, STANDARDS
+	  sections.
+
+
+0.090   2021-08-22  Released-By: PERLANCAR; Urgency: medium
+
+	- [sub pod_section_ala_perlancar] Add IMPLEMENTATION NOTES, EXIT
+	  STATUS, EXAMPLES sections.
+
+
+0.089   2021-08-06  Released-By: PERLANCAR; Urgency: medium
+
+	- [sub pod_section_ala_perlancar] Add CONTRIBUTOR & CONTRIBUTING
+	  sections.
+
+
+0.088   2021-06-04  Released-By: PERLANCAR; Urgency: medium
+
+	- [sub pod_section_ala_perlancar] Add CONTRIBUTORS section.
+
+
+0.087   2021-05-01  Released-By: PERLANCAR; Urgency: medium
+
+	- Tweak POD sections: recognize ORIGINAL LICENSE, remove FOO'S
+	  (BUGS|AUTHORS|etc) because I am using ORIGINAL (BUGS|AUTHORS|etc)
+	  nowadays.
+
+
+0.086   2021-04-23  Released-By: PERLANCAR; Urgency: medium
+
+	- [sub pod_section_ala_perlancar] Add CREDITS/THANKS sections.
+
+
+0.085   2021-04-23  Released-By: PERLANCAR; Urgency: medium
+
+	[sub pod_section_ala_perlancar]
+
+        - Add 'ORIGINAL XXX' sections for forked module original sections.
+
+
+0.084   2021-04-11  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- Edit Changes again, derp.
+
+
+0.083   2021-04-11  Released-By: PERLANCAR; Urgency: low
+
+	- No functional changes.
+
+	- Edit Changes.
+
+
+0.082   2021-04-11  Released-By: PERLANCAR; Urgency: medium
+
+	[sub pod_section_ala_perlancar]
+
+        - Add a couple Acme::CPANModules headers (so it's ahead of Bencher
+	  headers).
+
+
+0.081   2020-02-19  Released-By: PERLANCAR; Urgency: medium
+
+	- Rename dist PERLANCAR-Sort-Sub to Sort-SubBundle-PERLANCAR.
+
+        - Rename module Sort::Sub::pod_section{s,}_ala_perlancar.
+
+	[sub pod_section_ala_perlancar]
+
+        - Sort CAVEATS like GOTCHAS.
+
+
+0.080   2020-02-13  Released-By: PERLANCAR; Urgency: medium
+
+	- Add sort sub: pod_sections_ala_perlancar (sort spec moved from
+	  Pod::Weaver::Plugin::PERLANCAR::SortSections). UPDATE: renamed to
+	  pod_section_ala_perlancar.
+
+
+0.07    2019-12-15  Released-By: PERLANCAR; Urgency: medium
+
+	- Add meta(), build updates.
+
+
+0.06    2017-02-17  Released-By: PERLANCAR
+
+	- No functional changes.
+
+	- Fix grammar/wording.
+
+
+0.05    2017-02-17  Released-By: PERLANCAR
+
+        - Add: changes_group_ala_perlancar.
+
+
+0.04    2016-12-28  Released-By: PERLANCAR
+
+	- No functional changes.
+
+	- [dist] Bump prereq version Test::Sort::Sub 0.07.
+
+
+0.03    2016-02-26  Released-By: PERLANCAR
+
+        - [Incompatible change] Rename sort sub perlancar_prereq_sort to
+          prereq_ala_perlancar.
+
+
+0.02    2016-02-26  Released-By: PERLANCAR
+
+        - No functional changes.
+
+        - Remove lib/Sort/Sub.pm [copy mistake].
+
+
+0.01    2016-02-25  Released-By: PERLANCAR
+
+        - First release.
