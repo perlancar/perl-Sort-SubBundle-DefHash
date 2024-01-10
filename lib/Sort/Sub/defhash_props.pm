@@ -1,4 +1,4 @@
-package Sort::Sub::rinci_sub_meta_props;
+package Sort::Sub::defhash_props;
 
 use 5.010001;
 use strict;
@@ -30,14 +30,30 @@ sub gen_sorter {
     Sort::BySpec::cmp_by_spec(
         spec => [
             'v',
+
             'defhash_v',
-            'name', qr/\Aname\./,
-            'caption', qr/\Acaption\./,
-            'description', qr/\Adescription\./,
+
+            'name',
+            qr/\Aname\./,
+
+            'caption',
+            qr/\Acaption\./,
+
+            # not in spec, but very common
+            'summary',
+            qr/\Asummary\./,
+
+            'description',
+            qr/\Adescription\./,
+
             'tags',
+
             'default_lang',
-            'x', qr/\Ax\./,
-            sub { $_[0] cmp $_[1] },
+
+            'x',
+            qr/\Ax\./ => sub { $_[0] cmp $_[1] },
+
+            qr// => sub { $_[0] cmp $_[1] },
         ],
         reverse => $is_reverse,
     );
