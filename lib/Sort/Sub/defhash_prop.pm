@@ -1,4 +1,4 @@
-package Sort::Sub::defhash_props;
+package Sort::Sub::defhash_prop;
 
 use 5.010001;
 use strict;
