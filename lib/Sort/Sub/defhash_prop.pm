@@ -33,6 +33,8 @@ sub gen_sorter {
 
             'defhash_v',
 
+            'default_lang',
+
             'name',
             qr/\Aname\./,
 
@@ -47,8 +49,6 @@ sub gen_sorter {
             qr/\Adescription\./,
 
             'tags',
-
-            'default_lang',
 
             'x',
             qr/\Ax\./ => sub { $_[0] cmp $_[1] },
